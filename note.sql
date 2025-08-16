@@ -56,7 +56,7 @@ insert into [tableName] (cols )values (values );
 
 -- ? see the values  in the table 
 select * from [tablename]; --{ Here * for selecting rows and columns  }
--- select * from RatanBase;
+-- select * from StudetInfo ;
 
 
 
@@ -291,3 +291,27 @@ select MIN(fees) from StudentInfo ; --? Minimum function to find the minimum val
 +-----------+
 | 1000      |
 +-----------+
+
+
+
+
+
+DataBase Students;
+
+Table StudentInfo;
+
+
+
++----+------------------+------------+------+.        --! This is the final table 
+| id | name             | city       | fees |
++----+------------------+------------+------+
+|  1 | Raju             | Malda      | 1000 |
+|  2 | Ratan            | Malda      | 2000 |
+|  3 | Rai              | Kolkata    | 3000 |
+|  4 | Rkeash HAlder    | Kolaibari  | 4000 |
+|  5 | kanika Hasda     | Kumar Pur  | 5000 |
+|  6 | Rajjjiiiya       | Kalighat   | 6000 |
+|  7 | Rajkumar tiwari  | Asam       | 7000 |
+|  8 | kailash Hansda   | Kumar Pur  | 8000 |
+|  9 | Raju             | ABC        | 9000 |
++----+------------------+------------+------+
