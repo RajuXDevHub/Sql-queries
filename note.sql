@@ -269,3 +269,25 @@ select SUM(fees) from StudentInfo; --? Sum function to calculate the total of th
 +-----------+
 |     45000 |
 +-----------+
+
+select AVG (fees) from StudentInfo ; --? Average function to calculate the average of the fees column
++------------+
+| AVG (fees) |
++------------+
+|       5000 |
++------------+
+
+select MAX(fees) from StudentInfo ;--? Maximum function to find the maximum value in the fees column
++-----------+
+| MAX(fees) |
++-----------+
+| 9000      |
++-----------+
+
+
+select MIN(fees) from StudentInfo ; --? Minimum function to find the minimum value in the fees column
++-----------+
+| MIN(fees) |
++-----------+
+| 1000      |
++-----------+
