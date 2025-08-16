@@ -1,4 +1,5 @@
 
+--? MySQL Commands
 ** this is for open mysql server " mysql -u root -t " **
 
 --? This is for showing dataBases 
@@ -6,7 +7,7 @@
 
 --? this is for creating database 
 2.create database [dbname];
-create database students ;
+ --tcreate database students ;
 
 --? This is for delete data bases
 3.drop database [dbname];
@@ -259,4 +260,12 @@ select COUNT(id) "ID count " from StudentInfo where city = "Malda"; --? Count sp
 | ID count  |
 +-----------+
 |         2 |
++-----------+
+
+
+select SUM(fees) from StudentInfo; --? Sum function to calculate the total of the fees column
++-----------+
+| SUM(fees) |
++-----------+
+|     45000 |
 +-----------+
